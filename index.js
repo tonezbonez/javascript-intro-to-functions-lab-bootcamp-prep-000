@@ -17,3 +17,10 @@ function logWhisper(string){
   return console.log(string.toLowerCase())
 }
 logShout('Hello')
+
+function sayHiToGrandma(string){
+  if string='hello'{console.log('I can\'t hear you!')}
+  else if string = 'HELLO'{console.log('YES INDEED!')}
+  else if string = 'I love you, Grandma.'{console.log('I love you, too.')}
+  else {console.log('invalid input')}
+}
