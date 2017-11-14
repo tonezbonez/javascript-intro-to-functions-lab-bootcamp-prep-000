@@ -1,23 +1,19 @@
 function shout(string){
-  return string.toUpperCase()
- };
+return string.toUpperCase()
+};
+shout('hello')
 
- shout("hello");
-
- function logShout(string){
-   return console.log(string.toUpperCase())
+function whisper(string){
+  return string.toLowerCase()
 }
+shout('HELLO')
 
- logShout("hello")
-
- function whisper(string){
-   return string.toLowerCase();
- }
-
- whisper("HELLO")
-
- function logWhisper(string){
-   return console.log(string.toLowerCase())
+function logShout(string){
+  return console.log(string.toUpperCase())
 }
+logShout('hello')
 
- logWhisper("HELLO")
+function logWhisper(string){
+  return console.log(string.toLowerCase())
+}
+logShout('Hello')
